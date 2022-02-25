@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.search__bar {
+  width: 75%;
+}
+
+@media (max-width: 768px) {
+  .search__bar {
+    width: 100%;
+  }
+}
