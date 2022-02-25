@@ -60,7 +60,7 @@ const foodDetails = (info) => {
         console.log(info.idMeal);
         col.innerHTML = `
         <div id="card__details__img" class="card h-100 my-4">
-        <img src="${info.strMealThumb}">
+        <img style="height: 30rem; width: auto" src="${info.strMealThumb}">
         <div class="card-body">
           <h4 class="card-title">Food title: ${info.strMeal}</h4>
           <p class="card-text">${info.strInstructions}</p>
